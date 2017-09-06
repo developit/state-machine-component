@@ -64,7 +64,7 @@ const ToDos = stateMachineComponent(
 	// state, action(type)
 	({ todos, text }, action) => (
 		<div>
-			<h2>State Machine ToDo's</h2>
+			<h2>State Machine ToDos</h2>
 			<ul>{todos.map( todo => <li>{todo}</li> )}</ul>
 			<form onSubmit={action('ADD')}>
 				<input value={text} onInput={action('TEXT')} />
