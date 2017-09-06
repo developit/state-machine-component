@@ -1,7 +1,7 @@
 {
   "name": "state-machine-component",
   "amdName": "stateMachineComponent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create tiny pure state machine components.",
   "source": "machine.js",
   "module": "dist/machine.es.js",
