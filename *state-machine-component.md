@@ -2,6 +2,8 @@
 
 A tiny (265 byte) utility to create state machine components using two pure functions.
 
+🔥 [**JSFiddle Demo**](https://jsfiddle.net/developit/x0td4bmy/)
+
 ### Usage
 
 The API is a single function that accepts 2 pure functions as arguments:
