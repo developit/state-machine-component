@@ -1,7 +1,7 @@
 {
   "name": "state-machine-component",
   "amdName": "stateMachineComponent",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "250b lib for building pure functional state machine components.",
   "source": "src/index.js",
   "main": "dist/state-machine-component.js",
@@ -10,7 +10,8 @@
   "scripts": {
     "build": "microbundle",
     "prepare": "npm run -s build",
-    "test": "eslint src"
+    "test": "eslint src",
+    "release": "npm run -s prepare && npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "eslintConfig": {
     "extends": "eslint-config-developit"
