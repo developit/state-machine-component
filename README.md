@@ -4,6 +4,28 @@ A tiny (~250 byte) utility to create state machine components using two pure fun
 
 🔥 [**JSFiddle Demo**](https://jsfiddle.net/developit/x0td4bmy/)
 
+### Install
+
+This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go check them out if you don't have them locally installed.
+
+```sh
+npm install --save state-machine-component
+```
+
+Then with a module bundler like [webpack](https://webpack.js.org) or [rollup](http://rollupjs.org), use as you would anything else:
+
+```js
+import stateMachineComponent from 'state-machine-component';
+```
+
+The [UMD](https://github.com/umdjs/umd) build is also available on [unpkg](https://unpkg.com):
+
+```html
+<script src="//unpkg.com/state-machine-component/dist/state-machine-component.umd.js"></script>
+```
+
+You can find the library on `window.stateMachineComponent`.
+
 ### Usage
 
 The API is a single function that accepts 2 pure functions as arguments:
