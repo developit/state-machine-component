@@ -15,7 +15,7 @@ npm install --save state-machine-component
 Then with a module bundler like [webpack](https://webpack.js.org) or [rollup](http://rollupjs.org), use as you would anything else:
 
 ```js
-import stateMachineComponent from 'state-machine-component';
+import stateMachine from 'state-machine-component';
 ```
 
 The [UMD](https://github.com/umdjs/umd) build is also available on [unpkg](https://unpkg.com):
