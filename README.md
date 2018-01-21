@@ -1,8 +1,15 @@
-# state-machine-component
+<p align="center">
+  <img src="https://i.imgur.com/HasFoev.png" width="300" height="300" alt="state-machine-component">
+</p>
+<h1 align="center">state-machine-component</h1>
+<p align="center">
+  <a href="https://www.npmjs.org/package/state-machine-component"><img src="https://img.shields.io/npm/v/state-machine-component.svg?style=flat" alt="npm"></a>
+</p>
 
 A tiny (~250 byte) utility to create state machine components using two pure functions.
 
 🔥 [**JSFiddle Demo**](https://jsfiddle.net/developit/x0td4bmy/)
+
 
 ### Install
 
@@ -24,7 +31,8 @@ The [UMD](https://github.com/umdjs/umd) build is also available on [unpkg](https
 <script src="//unpkg.com/state-machine-component/dist/state-machine-component.umd.js"></script>
 ```
 
-You can find the library on `window.stateMachineComponent`.
+The library will install itself globally as `window.stateMachineComponent`.
+
 
 ### Usage
 
@@ -106,3 +114,8 @@ const ToDos = stateMachineComponent(
 	)
 );
 ```
+
+
+### License
+
+[MIT License](https://oss.ninja/mit/developit) © [Jason Miller](https://jasonformat.com/)
